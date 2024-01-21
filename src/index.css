@@ -11,3 +11,62 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.nav {
+  background-color: dimgray;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0 1rem;
+}
+
+.nav-company {
+  font-size: 2rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-grow: 1;
+  padding-bottom: 1rem;
+}
+
+section {
+  width: 100%;
+  max-width: 420px;
+  min-height: 420px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 5rem;
+  background-color: dimgray;
+}
+
+.offscreen {
+  position: absolute;
+  left: -9999px;
+}
+
+.error-message {
+  font-size: 1.5rem;
+  background-color: dimgray;
+  color: firebrick;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.button {
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+input[type="text"],
+input[type="password"],
+textarea {
+  font-size: 1rem;
+  padding: 0.25rem;
+  border-radius: 0.5rem;
+}
